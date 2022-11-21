@@ -1,18 +1,25 @@
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
+import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from 'typeorm'
+
 @Entity()
 export class Tasks{
+
     @PrimaryGeneratedColumn()
     id: number;
+
     @Column()
     title: string;
+
     @Column()
     description: string;
+
     @Column({
         default: false
     })
     finished: boolean;
+
     @CreateDateColumn()
     create_at: Date;
-    @UpdateDateColumn()
+
+    @CreateDateColumn()
     updated_at: Date;
 }
