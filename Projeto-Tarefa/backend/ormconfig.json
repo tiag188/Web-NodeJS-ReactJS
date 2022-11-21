@@ -1,0 +1,24 @@
+{
+    "type": "postgres",
+    "host": "babar.db.elephantsql.com",
+    "port": 5432,
+    "username": "crkyjxcc",
+    "password": "hRqqXaRsd9CUGn16YRHtCUS2TDU6xpgt",
+    "database": "crkyjxcc",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "src/entity/**/*.ts"
+    ],
+    "migrations": [
+       "src/migration/**/*.ts"
+    ],
+    "subscribers": [
+       "src/subscriber/**/*.ts"
+    ],
+    "cli": {
+       "entitiesDir": "src/entity",
+       "migrationsDir": "src/migration",
+       "subscribersDir": "src/subscriber"
+    }
+ }
