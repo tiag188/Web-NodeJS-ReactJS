@@ -4,4 +4,4 @@ Backend URL todas as tasks: https://tarefa-back.herokuapp.com/tasks ou task espe
 
 Front End: https://tarefa-front.herokuapp.com/
 
-Mobile: https://tarefas-mobile.herokuapp.com/
+Mobile: https://snack.expo.dev/@tiag/tarefas-mobile
